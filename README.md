@@ -6,10 +6,9 @@ This Role installs Nginx Web Server on a PC and redirect all the calls from HTTP
 Requirements
 ------------
 
-It no need extra roles. You must eddit your resolv.conf and add a line like this:
-   192.168.14.999  base.cu
-	
-   
+It need no extra roles. You must eddit your resolv.conf and add a line like this:
+
+    192.168.14.999 base.cu
 
 Role Variables
 --------------
