@@ -1,0 +1,4 @@
+---
+# handlers file for tomcat_ssl
+- name: restart nginx service
+  service: "name={{ nginx_service }} state={{ nginx_restart_state }}"

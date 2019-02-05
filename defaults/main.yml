@@ -1,0 +1,8 @@
+---
+# Set nginx state when configuration changes are made. Recommended values:
+# `restarted` or `reloaded`
+nginx_restart_state: restarted
+
+# Nginx package state; use `present` to make sure it's installed, or `latest`
+# if you want to upgrade or switch versions using a new repo.
+nginx_packages_state: latest

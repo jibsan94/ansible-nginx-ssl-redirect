@@ -1,0 +1,12 @@
+---
+
+- name: Copying Certificate Key to server
+  copy: src=base.key dest={{ nginx_conf_path }}/base.key
+
+- name: Copying Certificate Crt to server
+  copy: src=base.crt dest={{ nginx_conf_path }}/base.crt
+
+- name: Copying default file to server
+  copy: src=default dest={{ nginx_sites_available }}/default
+  notify:
+    - restart nginx service

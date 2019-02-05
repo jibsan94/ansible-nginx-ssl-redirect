@@ -1,0 +1,6 @@
+---
+- name: Update apt cache.
+  apt: update_cache=yes cache_valid_time=3600
+
+- name: Ensure Nginx is installed on Debian.
+  apt: "name={{ nginx_packages }} state={{ nginx_packages_state }}"
