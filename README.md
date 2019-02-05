@@ -8,6 +8,7 @@ Requirements
 
 It no need extra roles. You must eddit your resolv.conf and add a line like this:
    192.168.14.999  base.cu
+	
    
 
 Role Variables
