@@ -1,0 +1,9 @@
+---
+nginx_service: nginx
+nginx_daemon: nginx
+nginx_server_root: /var/lib/nginx
+nginx_conf_path: /etc/nginx
+nginx_sites_available: /etc/nginx/sites-available
+
+__nginx_packages:
+  - nginx
